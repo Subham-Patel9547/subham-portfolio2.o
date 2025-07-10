@@ -1,0 +1,283 @@
+@import "tailwindcss";
+
+.active-link {
+  color: #34D399;
+}
+
+.text-color {
+  color: aqua;
+}
+
+.primary-text {
+  color: aqua;
+}
+
+.secondary-text {
+  color: #34D399;
+}
+
+.button-background-color {
+  background-color: #005435;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button-background-color:hover {
+  background-color: aqua;
+  color: #005435;
+}
+
+
+.logo-background {
+  background: rgb(0, 255, 255);
+}
+
+.around-shadow {
+  box-shadow: 0 0 30px 5px rgb(0, 141, 141);
+  background-color: rgba(0, 141, 141, 0.619);
+}
+
+.social-media-icon-shadow {
+  box-shadow: 0 0 10px 5px rgba(0, 141, 141, 0.584);
+  background-color: rgba(0, 141, 141, 0.619);
+}
+
+.social-media-icon-shadow:hover {
+  box-shadow: 0 0 10px 5px rgb(0, 141, 141);
+  transition: ease-in-out 300ms;
+}
+
+.image-inner-shadow {
+  backdrop-filter: drop-shadow(8px 8px 10px green);
+}
+
+.about-background-color {
+  background: #00451d;
+  background: linear-gradient(117deg, rgb(0, 33, 14) 0%, rgba(0, 9, 13, 1) 74%);
+}
+
+.techStack-background-color {
+  background: #00451d;
+  background: linear-gradient(117deg, rgba(0, 9, 13, 1) 0%, rgb(0, 12, 5) 170%);
+}
+
+.techStackCard-background-color {
+  background: #00451d;
+  background: linear-gradient(117deg, rgb(20, 25, 22) 0%, rgba(0, 9, 13, 1) 74%);
+}
+
+.skills-background-color {
+  background: #00451d;
+  background: linear-gradient(117deg, rgb(0, 8, 4)0%, rgb(0, 0, 0) 74%);
+}
+
+.skillsCard-background-color {
+  background: #00451d;
+  background: linear-gradient(117deg, rgb(18, 26, 22)0%, rgba(0, 9, 13, 1) 74%);
+}
+
+.projects-background-color {
+  background: #00451d;
+  background: linear-gradient(200deg, rgb(0, 0, 0)0%, rgb(0, 5, 2) 74%);
+}
+
+.projects-card-background-color {
+  background: #00451d;
+  background: linear-gradient(150deg, rgb(13, 21, 17)0%, rgba(0, 9, 13, 1)74%);
+}
+
+.experience-background-color {
+  background: rgb(0, 69, 29);
+  background: linear-gradient(150deg, rgb(0, 0, 0)0%, rgb(0, 8, 4)74%);
+}
+
+.experience-card-background-color {
+  background: #00451d;
+  background: linear-gradient(150deg, rgb(13, 21, 17)0%, rgb(0, 0, 0)74%);
+}
+
+.education-background-color {
+  background: #00451d;
+  background: linear-gradient(150deg, rgb(0, 0, 0)0%, rgb(0, 10, 4)74%);
+}
+
+.education-card-background-color {
+  background: #00451d;
+  background: linear-gradient(150deg, rgb(13, 21, 17)0%, rgb(0, 0, 0)74%);
+}
+
+.contact-background-color {
+  background: #00451d;
+  background: linear-gradient(150deg, rgb(0, 15, 6)0%, rgb(0, 0, 0)74%);
+}
+
+.contact-form-background-color {
+  background: #00451d;
+  background: linear-gradient(150deg, rgb(0, 6, 9)0%, rgb(10, 17, 13)74%);
+}
+
+.footer-background-color {
+  background: #00090d;
+  background: linear-gradient(117deg, rgb(0, 25, 36) 50%, rgb(0, 70, 70) 50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: Clip;
+  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
+
+.final-div {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 41, 41);
+  background-image: linear-gradient(335deg, black 23px, transparent 23px),
+    linear-gradient(155deg, black 23px, transparent 23px),
+    linear-gradient(335deg, black 23px, transparent 23px),
+    linear-gradient(155deg, black 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+}
+
+.sign {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 1.5rem;
+  font-family: "Clip";
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #ffe6ff;
+  text-shadow:
+    0 0 0.6rem aqua,
+    0 0 1.5rem aqua,
+    -0.2rem 0.1rem 1rem aqua,
+    0.2rem 0.1rem 1rem aqua,
+    0 -0.5rem 2rem aqua,
+    0 0.5rem 3rem aqua;
+  animation: shine 2s forwards, flicker 2s infinite;
+}
+
+.flicker {
+  animation: shine 1s forwards, blink 1s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: #6b1839;
+    text-shadow: none;
+  }
+
+  100% {
+    color: #ffe6ff;
+    text-shadow:
+      0 0 0.6rem #ffe6ff,
+      0 0 1.5rem #ff65bd,
+      -0.2rem 0.1rem 1rem #ff65bd,
+      0.2rem 0.1rem 1rem rgb(0, 91, 91),
+      0 -0.5rem 2rem rgb(4, 78, 78),
+      0 0.5rem 3rem rgb(0, 43, 43);
+  }
+}
+
+@keyframes blink {
+
+  0%,
+  22%,
+  36%,
+  75% {
+    opacity: 1;
+  }
+
+  28%,
+  33% {
+    opacity: 0.1;
+  }
+
+  82%,
+  97% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .sign {
+    font-size: 20px;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}

@@ -122,7 +122,34 @@
 
 
 
+/* contact success message */
+ .animate-slide-in {
+    animation: slide-in 0.3s ease-out;
+  }
 
+  @keyframes slide-in {
+    from {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes underline-slide {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+.animate-underline-slide {
+  animation: underline-slide 3s linear forwards;
+}
 
 
 

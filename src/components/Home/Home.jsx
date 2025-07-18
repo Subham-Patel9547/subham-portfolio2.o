@@ -85,7 +85,7 @@ const Home = () => {
             </p>
 
             {/* Social Media Icons */}
-            <div className="w-full md:w-80 flex justify-center">
+            <div className="lg:w-80  flex justify-center">
               <SocialMediaIcons />
             </div>
 
@@ -93,7 +93,7 @@ const Home = () => {
             <div className="mt-6">
               <button
                 onClick={() => navigate("/contact")}
-                className="social-media-icon-shadow text-white text-lg sm:text-xl font-semibold px-6 py-3 w-full sm:w-80 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300"
+                className="social-media-icon-shadow text-white cursor-pointer text-lg sm:text-xl font-semibold px-6 py-3 w-full sm:w-80 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300"
               >
                 Hire Me!
               </button>

@@ -8,6 +8,7 @@ import {
   FaPhone,
   FaPhoneAlt,
   FaTwitter,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import SocialMediaIcons from "../social-media-icons/SocialMediaIcons";
@@ -39,8 +40,8 @@ const Footer = () => {
     }`;
 
   return (
-    <footer className=" w-full bg-gray-950 text-gray-300 pt-16 pb-8 px-3 md:px-20">
-      <div className="w-full md:*:w-1/4 flex flex-col md:flex-row justify-around pl-2 lg:pl-0 gap-7 lg:gap-20 ">
+    <footer className=" w-full bg-gray-950 text-gray-300 pt-10 pb-8 px-3 md:px-3">
+      <div className="w-full md:*:w-1/3 flex flex-col md:flex-row justify-around pl-2 lg:pl-0 gap-7 lg:gap-4 ">
         {/* About */}
         <div data-aos="fade-up">
           <h2 className="text-3xl font-semibold mb-2 secondary-text">
@@ -51,7 +52,7 @@ const Footer = () => {
             and mobile applications.
           </p>
           {/* social media links */}
-          <div className="-ml-24 lg:ml-5">
+          <div className="-ml-4">
             <SocialMediaIcons />
           </div>
         </div>
@@ -119,25 +120,41 @@ const Footer = () => {
               Contact Us
             </h3>
             <p className="mb-2 primary-text">
-              <strong className="">Prayagraj</strong>
+              <strong>Prayagraj</strong>
               <br />
               16, Bharadwaj Ashram Rd, Tagore Town,
               <br />
               Prayagraj, Uttar Pradesh 211002
             </p>
             {/* call */}
-            <div className="flex gap-1">
-              <FaPhone className="mt-2" />
-              <h4 className="text-xl tracking-wider font-semibold">
-                : 7266896432
-              </h4>
+            <div>
+              <a
+                href="https://wa.me/917266896432?text=Hi%20Subham%2C%20I%20got%20your%20number%20from%20your%20portfolio%20website."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2  "
+              >
+                <FaWhatsapp className="mt-1 text-2xl text-green-400 hover:text-green-300 transition" />
+                <span className="text-xl tracking-wider font-semibold hover:text-green-300 transition">
+                  : 7266896432
+                </span>
+              </a>
             </div>
+
             {/* email */}
-            <div className="flex gap-2">
-              <FaEnvelope className="mt-2" />
-              <h4 className="text-md font-semibold tracking-wider">
-                subhampatel9547@gmail.com
-              </h4>
+            <div className="mt-2 ">
+              <a
+                href="mailto:subhampatel9547@gmail.com?subject=Inquiry%20from%20Portfolio&body=Hi%20Subham%2C%20I%20visited%20your%20portfolio%20and%20wanted%20to%20connect."
+                className="flex gap-2"
+              >
+                <FaEnvelope
+                  size={20}
+                  className="text-green-400 hover:text-green-300 transition"
+                />
+                <span className="text-sm font-semibold tracking-wider hover:text-green-300 transition">
+                  : subhampatel9547@gmail.com
+                </span>
+              </a>
             </div>
           </div>
         </div>

@@ -73,8 +73,11 @@ const TechStack = () => {
                 {category.title}
               </h3>
               <ul className="space-y-3  ease-in-out transition duration-300">
-                {category.stack.map((tech) => (
-                  <div className="hover:-translate-y-1 ease-in-out transition duration-300 hover:bg-emerald-900/20 hover:text-emerald-300">
+                {category.stack.map((tech, i) => (
+                  <div
+                    key={i}
+                    className="hover:-translate-y-1 ease-in-out transition duration-300 hover:bg-emerald-900/20 hover:text-emerald-300"
+                  >
                     <li
                       data-aos="fade-right"
                       key={tech.name}

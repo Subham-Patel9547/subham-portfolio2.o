@@ -29,7 +29,7 @@ const SocialMediaIcons = () => {
   ];
 
   return (
-    <div className="flex gap-4 justify-center mt-4">
+    <div className="flex gap-5 justify-center m-4">
       {icons.map((item, index) => (
         <a
           key={index}

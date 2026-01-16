@@ -13,6 +13,8 @@ import {
   SiTailwindcss,
   SiExpress,
   SiFirebase,
+  SiFlutter,
+  SiDart
 } from "react-icons/si";
 import SvgHeading from "../SvgHeading/SvgHeading";
 
@@ -47,6 +49,8 @@ const TechStack = () => {
       title: "Mobile",
       stack: [
         { name: "React Native", icon: <FaReact className="text-cyan-400" /> },
+        { name: "React Native", icon: <SiFlutter className="text-[#42A5F5]" /> },
+        { name: "React Native", icon: <SiDart className="text-[#13B9FD]" /> },
         {
           name: "Responsive Design",
           icon: <FaMobileAlt className="text-pink-400" />,

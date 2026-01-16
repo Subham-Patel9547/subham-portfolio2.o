@@ -2,7 +2,7 @@ import React from "react";
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
 import { PiTelegramLogoLight } from "react-icons/pi";
-import { FaInstagram, FaFacebook } from "react-icons/fa"; // ✅ Add this
+import { FaInstagram, FaFacebook } from "react-icons/fa"; 
 
 const SocialMediaIcons = () => {
   const icons = [

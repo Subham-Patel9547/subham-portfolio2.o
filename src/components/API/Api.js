@@ -36,15 +36,34 @@ export const backendStack = [
 export const reactProjects = [
     {
         title: "SuKaj Infotech Pvt. Ltd. Website",
-        description: "Full company website showcasing services, vision, mission, and stacks.",
+        description: "Built a fully responsive IT company website showcasing services, vision, mission, technology stacks, and client testimonials using ReactJS & Tailwind CSS.",
         techStack: ["ReactJS", "Tailwind CSS", "Framer Motion"],
         liveLink: "https://sukaj-infotech.netlify.app/",
     },
     {
         title: "Beekeeping Website",
-        description: "Nature-themed site with animations and image galleries.",
+        description: "Nature-themed informational website featuring animations and image galleriesNature themed informational website featuring sections like Home, About, Contact, Types of Bees Why Choose Us, Our Blog, and Newsletter Signup. Includes smooth animations and image galleries for an engaging user experience.",
         techStack: ["ReactJS", "Tailwind CSS", "Framer Motion"],
         liveLink: "https://beepkeeping-honey.netlify.app/",
+    },
+    {
+        title: "Clino Cleaning Services",
+        description: "A responsive React & Tailwind CSS website for a cleaning service company, featuring smooth mobile navigation, active link highlighting, section-based scrolling, and custom Coming Soon & 404 pages. Deployed on Netlify.",
+        techStack: ["ReactJS", "Tailwind CSS", "Framer Motion"],
+        liveLink: "https://clino-cleaning-servicess.netlify.app/",
+    },
+    {
+        title: "Travel Landing Page – Camper",
+        description: "Developed a fully responsive and visually captivating travel landing page with smooth scroll animations, image zoom effects, and interactive UI components.",
+        techStack: ["ReactJS", "Tailwind CSS", "Framer Motion"],
+        liveLink: "https://camper-travel-landing-page.netlify.app/",
+    },
+
+    {
+        title: "    ZipBasket – Grocery Delivery Website (In Progress)",
+        description: "Full-featured e-commerce platform with all essential functionalities, including product listings, categories, search & filter, shopping cart, user authentication, checkout, payment gateway integration, and order tracking. Built using ReactJS & Tailwind CSS for a responsive and user-friendly experience.",
+        techStack: ["ReactJS", "Tailwind CSS"],
+        liveLink: "https://zip-basket.netlify.app/",
     },
     {
         title: "Multi-Step Form",
@@ -106,20 +125,23 @@ export const reactNativeProjects = [
 // Experience
 
 export const experiences = [
+    // {
+    //     company: "SuKaj Infotech Pvt. Ltd.",
+    //     role: "Frontend Developer (Founder)",
+    //     duration: "Jan 2024 – Present",
+    //     description: "Developed and maintained the official company website and led frontend development for multiple client projects.",
+    //     techStack: ["ReactJS", "Tailwind CSS", "Framer Motion"],
+    // },
     {
-        company: "SuKaj Infotech Pvt. Ltd.",
-        role: "Frontend Developer (Founder)",
-        duration: "Jan 2024 – Present",
-        description: "Developed and maintained the official company website and led frontend development for multiple client projects.",
-        techStack: ["ReactJS", "Tailwind CSS", "Framer Motion"],
-    },
-    {
-        company: "Freelance Projects",
-        role: "React Developer",
-        duration: "Jul 2023 – Dec 2023",
-        description: "Built several websites and mobile apps for clients, focusing on performance, responsiveness, and user experience.",
-        techStack: ["React Native", "Firebase", "LocalStorage", "Styled-components"],
-    },
+        company: "BookUrTicket.com",
+        role: "Flutter Developer",
+        duration: "November-2025 – Present",
+        description:
+            "Currently working as a Flutter Developer, building scalable and high-performance mobile applications with a focus on clean UI, smooth animations, and seamless user experience.",
+        techStack: ["Flutter", "Dart", "Firebase", "REST APIs", "Provider", "Git"],
+    }
+
+
 ];
 
 // education

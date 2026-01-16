@@ -3,7 +3,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import SvgHeading from "../SvgHeading/SvgHeading";
 
 const Contact = () => {
-  const [formState, handleSubmit] = useForm("mldldlnk"); // Replace with your real Formspree ID
+  const [formState, handleSubmit] = useForm("mldldlnk");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -15,8 +15,8 @@ const Contact = () => {
   useEffect(() => {
     if (formState.succeeded) {
       setShowToast(true);
-      setTimeout(() => setShowToast(false), 3000); // Hide toast after 3s
-      setFormData({ name: "", email: "", message: "" }); // Reset form
+      setTimeout(() => setShowToast(false), 3000); 
+      setFormData({ name: "", email: "", message: "" }); 
     }
   }, [formState.succeeded]);
 
@@ -29,7 +29,7 @@ const Contact = () => {
       {showToast && (
         <div className="fixed top-5 right-5 bg-green-600 text-white px-4 py-2 rounded shadow-lg z-50">
           ✅ Thank you! Your message has been sent.
-          {/* ✅ Animated underline */}
+          {/*  Animated underline */}
           <div className="mt-2 h-1 bg-gradient-to-r from-green-500 to-white animate-underline-slide"></div>
         </div>
       )}

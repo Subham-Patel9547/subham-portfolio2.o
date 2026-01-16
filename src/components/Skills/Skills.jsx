@@ -13,6 +13,8 @@ import {
   SiTailwindcss,
   SiExpress,
   SiFirebase,
+  SiFlutter,
+  SiDart,
 } from "react-icons/si";
 import SvgHeading from "../SvgHeading/SvgHeading";
 
@@ -24,10 +26,12 @@ const skills = [
   { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
   { name: "Express.js", icon: <SiExpress className="text-gray-300" /> },
   { name: "MongoDB", icon: <SiMongodb className="text-green-400" /> },
+  { name: "React Native", icon: <FaReact className="text-cyan-400" /> },
+  { name: "Flutter", icon: <SiFlutter className="text-[#02569B]" /> },
+  { name: "Dart", icon: <SiDart className="text-[#13B9FD]" /> },
   { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
   { name: "GitHub", icon: <FaGithub className="text-white" /> },
-  { name: "React Native", icon: <FaReact className="text-cyan-400" /> },
   {
     name: "Responsive Design",
     icon: <FaMobileAlt className="text-pink-400" />,
